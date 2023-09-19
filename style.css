@@ -1,0 +1,94 @@
+.page{
+     color: white;
+}
+
+button{
+    background-color: #c53b42;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1c142c;
+}
+
+.page-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    display: flex;
+    background-color: #1c142c;
+}
+
+img{
+    width: 200px;
+}
+.experience{
+    display: flex;
+    justify-content: space-between;
+    background-color: #292243;
+}
+
+.experience>p{
+    border-width: 1px;
+    border-color: red;
+    border-style: dotted;
+}
+
+.portfolio-showcase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c142c;
+}
+
+.portfolio-words{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.portfolio-button{
+    max-height: 30px;
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #292243;
+}
+
+
+.contact{
+    display: flex;
+    background-color: #1c142c;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-me{
+    display: flex;  
+    flex-direction: column;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #292243;
+}
+
+.copy{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #292243;
+}
