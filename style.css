@@ -1,15 +1,16 @@
-body{
+body {
     margin: 0 auto;
 }
 
-.page{
-     color: white;
+.page {
+    color: white;
 }
 
-button{
+button {
     background-color: #c53b42;
 }
-.header{
+
+.header {
     display: flex;
     flex-direction: row;
     background-color: #1c142c;
@@ -17,55 +18,78 @@ button{
     padding: 2rem;
 }
 
-.page-links{
+.page-links {
     font-size: small;
     display: flex;
     justify-content: space-around;
 }
 
-.page-links>p{
+.page-links>p {
     margin-left: 7px;
     margin-right: 7px;
 }
 
-.hero{
+.hero {
     display: flex;
     background-color: #1c142c;
+    justify-content: space-around;
+
 }
 
-img{
-    width: 200px;
-}
-.experience{
+.hero-text {
     display: flex;
-    justify-content: space-between;
-    background-color: #292243;
+    flex-direction: column;
+    width: 400px;
 }
 
-.experience>p{
+.welcome-im {
+    background-color: #4e1a2e;
+    width: 100px;
+    padding: 7px;
+}
+
+img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+    background-color: #292243;
+    padding: 20px 0px;
+}
+
+.experience>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-width: 1px;
     border-color: red;
     border-style: dotted;
+    padding: 0px 20px;
 }
 
-.portfolio-showcase{
+
+.portfolio-showcase {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1c142c;
 }
 
-.portfolio-words{
+.portfolio-words {
     display: flex;
     flex-direction: column;
     max-width: 200px;
 }
 
-.portfolio-button{
+.portfolio-button {
     max-height: 30px;
 }
 
-.timeline{
+.timeline {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,22 +98,22 @@ img{
 }
 
 
-.contact{
+.contact {
     display: flex;
     background-color: #1c142c;
 }
 
-.contact-me{
+.contact-me {
     display: flex;
     flex-direction: column;
 }
 
-.comment-me{
-    display: flex;  
+.comment-me {
+    display: flex;
     flex-direction: column;
 }
 
-.socials{
+.socials {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -97,7 +121,7 @@ img{
     background-color: #292243;
 }
 
-.copy{
+.copy {
     display: flex;
     align-items: center;
     flex-direction: column;
