@@ -74,19 +74,33 @@ img {
 
 .portfolio-showcase {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #1c142c;
+    flex-direction: column;
 }
 
 .portfolio-words {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
+}
+
+.port-intro{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.port-prev{
+    display: flex;
+}
+
+.port-prev>img{
+    margin: 10px;
 }
 
 .portfolio-button {
     max-height: 30px;
+    margin-bottom: 1rem;
 }
 
 .timeline {
